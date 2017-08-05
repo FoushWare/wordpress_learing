@@ -1,0 +1,185 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Green Garden v1.9\n"
+"POT-Creation-Date: 2016-08-19 18:09+0300\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Your Name <you@example.com>\n"
+"Language-Team: BestWebSoft <wp_theme@bestwebsoft.com>\n"
+"Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Textdomain-Support: yesX-Generator: Poedit 1.6.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html_x:1,2c;esc_html__;esc_attr_e;esc_attr_x:1,2c;esc_attr__;"
+"_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_x:1,2c;_n:1,2;_n_noop:1,2;__ngettext:1,2;__ngettext_noop:1,2;_c,"
+"_nc:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"Language: en_US\n"
+"X-Generator: Poedit 1.8.4\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:16
+msgid "The page you are looking for might have been removed, had its name changed, or is temporarily unavailable."
+msgstr ""
+
+#: 404.php:17
+msgid "Please try using our search box below to look for information on the internet."
+msgstr ""
+
+#: archive.php:23 image.php:16 index.php:27 search.php:21 single.php:16
+msgid "Posted on"
+msgstr ""
+
+#: archive.php:26 image.php:19 index.php:30 search.php:24 single.php:19
+msgid "in"
+msgstr ""
+
+#: archive.php:40 index.php:46 search.php:38 single.php:35
+msgid "Tags:"
+msgstr ""
+
+#: archive.php:47 index.php:53 search.php:45
+msgid "Previous page"
+msgstr ""
+
+#: archive.php:48 index.php:54 search.php:46
+msgid "Next page"
+msgstr ""
+
+#: comments.php:17
+#, php-format
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:24
+msgid "Older Comments"
+msgstr ""
+
+#: comments.php:25
+msgid "Newer Comments"
+msgstr ""
+
+#: comments.php:31
+msgid "You may use these"
+msgstr ""
+
+#: comments.php:31
+msgid "tags and attributes"
+msgstr ""
+
+#: comments.php:35 comments.php:40
+msgid "Comments are closed."
+msgstr ""
+
+#: footer.php:17
+msgid "Powered by"
+msgstr ""
+
+#: footer.php:18
+msgid "and"
+msgstr ""
+
+#: functions.php:58
+msgid "Main Sidebar"
+msgstr ""
+
+#: functions.php:60
+msgid "Widgets in this area will be shown on all posts and pages."
+msgstr ""
+
+#: functions.php:78
+msgid "Choose file"
+msgstr ""
+
+#: functions.php:79
+msgid "File is not selected"
+msgstr ""
+
+#: functions.php:93
+msgid "Pingback"
+msgstr ""
+
+#: functions.php:93 functions.php:114
+msgid "Edit"
+msgstr ""
+
+#: functions.php:101
+msgid "by"
+msgstr ""
+
+#: functions.php:104
+msgid "This is post author"
+msgstr ""
+
+#: functions.php:109
+msgid "at"
+msgstr ""
+
+#: functions.php:118
+msgid "Reply"
+msgstr ""
+
+#: functions.php:141
+msgid "Continue"
+msgstr ""
+
+#: functions.php:146
+msgid "Add to slider"
+msgstr ""
+
+#: functions.php:168
+msgid "To add this"
+msgstr ""
+
+#: functions.php:168
+msgid "into the slider, mark it"
+msgstr ""
+
+#: greengarden-nothingfound.php:11
+msgid "Nothing Found"
+msgstr ""
+
+#: greengarden-nothingfound.php:15
+msgid "Ready to publish your first post?"
+msgstr ""
+
+#: greengarden-nothingfound.php:16
+msgid "Get started here"
+msgstr ""
+
+#: greengarden-nothingfound.php:21
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: greengarden-nothingfound.php:26
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#: greengarden-slider.php:29
+msgid "learn more"
+msgstr ""
+
+#: image.php:71
+msgid "Previous"
+msgstr ""
+
+#: image.php:72
+msgid "Next"
+msgstr ""
+
+#: index.php:21
+msgid "Sticky post"
+msgstr ""
+
+#: search.php:12
+msgid "Search results for:"
+msgstr ""
+
+#: searchform.php:9
+msgid "Enter search keyword"
+msgstr ""
