@@ -18,7 +18,7 @@ if you use your website
 *FTP client like Filezila 
 
 
-##What i learned => ##
+## What i learned => ##
 *Difference between wordpress.com and wordpress.org
 *setup wordpress on wordpress.com
 *setup wordpress on localhost
