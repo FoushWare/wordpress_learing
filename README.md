@@ -3,7 +3,7 @@ Learning how to make theme in wordpress you can see my progress [still in progre
 
  __Knowledge you need to know__
 
-*Html,css,jQuery,bootstrap,PHP
+* Html,css,jQuery,bootstrap,PHP
 
 ***Tools you need***
 
@@ -12,7 +12,7 @@ if you work locally
 * web-server like XAMPP
 * Text-editor like [sublime-text,Brackets,Atom,...] For me i love vim
 
- __Strong text__ if you use your website** 
+ __ if you use your website__ 
 
 * Wordpress files
 * Domain name
