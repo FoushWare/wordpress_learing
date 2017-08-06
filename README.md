@@ -4,7 +4,8 @@ Learning how to make theme in wordpress you can see my progress [still in progre
 
 *Html,css,jQuery,bootstrap,PHP
 
---Tools you need--
+--Tools you need--  
+
 if you work locally 
 *wordpress files
 *web-server like XAMPP
