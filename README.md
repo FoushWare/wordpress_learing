@@ -1,4 +1,6 @@
 # wordpress_learing
+
+![picture alt](https://s.w.org/about/images/desktops/wp-light-hi-2048x1536.png "Title is optional")
 Learning how to make theme in wordpress you can see my progress [still in progress](http://ahmedfouad.esy.es/wordpress/)
 
  __Knowledge you need to know__
