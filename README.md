@@ -48,3 +48,38 @@ if you work locally
 * plugins and how to activate
 * users management 
 * Tools press It ,import and export
+* wordpress settings
+* files and Directories structure 
+* Create Theme Directories and files
+* Dig Deep into Bloginfo function
+* create the header.php
+* create the functions.php
+* Wp Enqueue style function
+* wp Enqueue script
+* Add Action and Enqueue scripts
+* WP__ Enqueue VS wp Register
+* Enqueue jQuery from wordpress core
+* Add footer and main.css style
+* Add Data to scripts After Enqueue
+* Register and Add Menu Feature to your theme
+* Add Bootstrap Navigation Bar
+* Design Blog posts
+* Add post Thumbnail feature 
+* posts Loop Structure and Title
+* posts Loop Time,Author,categories
+* post Loop comments count
+* post Loop post Thumbnail
+* posts Loop content and read more
+* posts Loop the Excerpt Enhance
+* posts Loop posts Tags
+* posts pagination
+* single post intro
+* single post pagination
+* list comments
+* comments Arguments
+
+
+
+
+
+
