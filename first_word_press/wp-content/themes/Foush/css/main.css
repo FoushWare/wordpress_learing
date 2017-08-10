@@ -256,12 +256,25 @@ list-style:none;
  
 }
 
-
+.comment-form-comment{
+    padding-left:21px;
+}
+.comment-alert {
+width: 505px;
+ padding-left: 28px;
+ margin-left:16px;
+}
+.comment-form label{
+padding-left:22px;
+}
 .comment-respond label{
     display:block;
 
 }
 
+.comment-respond input{
+    margin-left:21px;
+}
 .comment-respond input[type="text"],
 .comment-respond textarea
 {
@@ -270,6 +283,7 @@ width:500px;
 padding:10px;
 background:#FFF;
     border:none;
+    
 }
 
 .comment-respond textarea{
@@ -278,6 +292,13 @@ background:#FFF;
 
 }
 
+.comment-reply-title{
+text-align:center;
+padding: 20px;
+color: #fff;
+background-color: #5cb85c;
+border-color: #4cae4c;
+}
 
 
 /*End comment section*/

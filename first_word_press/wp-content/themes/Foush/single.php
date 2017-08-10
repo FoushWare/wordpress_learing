@@ -63,8 +63,35 @@
                     }else{
                             echo'<span class="float-left">Prev</span>';
                     }
-            ?>
+?>
+
+                                    <hr>
+                                    <!--Author Meta-->
+                                    <h3>
+                                        <?php the_author_meta('first_name')?>
+                                        <?php the_author_meta('last_name')?>
+                                        (  <?php the_author_meta('nickname')?>  )
+                                    </h3>
+                        <?php if( get_the_author_meta('description') ){?>
+
+                            <p>
+                                        <?php the_author_meta('description')?>
+                            </p>
+
+
+
+                        <?php
+                            }else{
+                                      echo'There is no meta';
+                                }
+
+                        ?>
+
+
+
+
                 <?php
+                    /*comment section*/
                     echo'<hr class="comments-seprator">';
                         comments_template();
                 ?>
