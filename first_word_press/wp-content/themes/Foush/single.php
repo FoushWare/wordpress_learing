@@ -7,8 +7,10 @@
 
                             while(have_posts()){
                                 the_post();?>
-                                <div class="col-md-6">
-                                   <div class="main-post">
+                                   <div class="main-post single-post">
+                                        <?php
+                                            edit_post_link('Edit <i class="fa fa-edit fa-lg"></i>');
+                                        ?><!--Edit the post if you have permission-->
                                         <h3 class="post-title">
                                              <a href="<?php the_permalink(); ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a>
                                         </h3>
@@ -23,7 +25,7 @@
                                         </span>
                                         <?php the_post_thumbnail('medium',['class'=>'img-responsive img-thumbnail']);?>
                                         <div class="post-content">
-                                            <?php the_excerpt();?>
+                                            <?php the_content();?>
                                         </div>
                                          <hr>
                                          <p class="categories">
@@ -39,38 +41,41 @@
                                             ?>
                                         </p>
                                     </div><!--end of main-post -->
-                            </div><!--end of col-sm-6 -->
                             <?php
                                         }//End of while (have_posts())
                                 }//End of  if(hav_posts())
                             ?>
-        <div class="post-pagination">
+        <div class="post-pagination single-post-pagination">
                 <?php
-                    if(get_next_posts_link()){
-                        echo'<span class="next-span ">';
-                            next_posts_link('Next <i class="fa fa-chevron-right"></i>');
+                    if(get_next_post_link()){
+                        echo'<span class="next-span">';
+                            next_post_link('%link','Next Article: %title <i class="fa fa-chevron-right"></i>');
 
                         echo '</span>';
                     }else{
-                            echo'<span class="float-right ">Next</span>';
+                            echo'<span class="float-right">Next</span>';
                     }
 
-                    if(get_previous_posts_link()){
-                        echo'<span class="previous-span ">';
-                            previous_posts_link('<i class="fa fa-chevron-left"></i> prev');
+                    if(get_previous_post_link()){
+                        echo'<span class="previous-span">';
+                            previous_post_link('%link','<i class="fa fa-chevron-left"></i> Previous Article: %title');
                         echo'</span>';
                     }else{
-                            echo'<span class="float-left ">Prev</span>';
+                            echo'<span class="float-left">Prev</span>';
                     }
+            ?>
+                <?php
+                    echo'<hr class="comments-seprator">';
+                        comments_template();
                 ?>
         </div><!--div of the pagination-->
 
 
         </div><!--End of the row-->
 
+
     </div><!--End tag of container-->
 
-    <?php?>
 
 
 

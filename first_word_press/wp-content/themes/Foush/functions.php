@@ -74,7 +74,7 @@ require_once('WP-Bootstrap-Navwalker.php');
      *default is 55work
      * */
     function Foush_extend_excerpt_length($length){
-        return 55;
+        return55;
     }
     /*
      *change the default of read me  [..] to read me

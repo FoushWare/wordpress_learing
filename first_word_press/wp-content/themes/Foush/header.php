@@ -2,7 +2,10 @@
 <html <?php language_attributes();?>>
     <head>
         <meta charset="<?php bloginfo('charset')?>" />
-        <title><?php bloginfo('name'); ?></title>
+        <title>
+            <?php wp_title('|','true','right');  ?>
+            <?php bloginfo('name'); ?>
+        </title>
         <?php wp_head();?>
     </head>
     <body>
@@ -18,7 +21,7 @@
                       <span class="icon-bar"></span>
                       <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="#">Project name</a>
+                    <a class="navbar-brand" href="<?php bloginfo('url');?>"><?php bloginfo('name');?></a>
                   </div>
                   <div id="navbar" class="navbar-collapse collapse navbar-right">
                         <?php Foush_bootstrap_navbar();?>

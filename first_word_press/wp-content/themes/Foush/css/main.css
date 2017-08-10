@@ -1,12 +1,21 @@
 /*start main rule*/
 body{
-    padding-bottom:10000px;
     background:#EEE;
 }
 
 
 
 /*End main rule*/
+
+/*start bootsrtap*/
+.navbar{
+    border-radius:0px;
+}
+/*End bootsrtap*/
+
+
+
+
 
 /*start footer*/
 footer{
@@ -24,7 +33,6 @@ footer{
     background:#2a2a2a;
     padding:20px;
     color:#EEE;
-    position:fixed;
     bottom:0px;
     right:0px;
     width:100%;
@@ -32,11 +40,11 @@ footer{
 
 /*End footer*/
 
-/*start posts*/
+/*start Main posts*/
 .main-post{
     border: 1px solid #e8d6d8;
     padding: 15px;
-    margin-bottom:31px;
+    margin-bottom:20px;
     background:#FFFFFF;
 }
 
@@ -71,4 +79,208 @@ footer{
 .main-post .post-comments {
 font-size:12px;
 }
-/*End posts*/
+
+
+.post-pagination{
+overflow: auto;
+width: 100%;
+margin-bottom:40px;
+}
+
+.post-pagination span{
+    opacity:.5;
+    padding-left:20px;
+    padding-right:20px;
+    cursor:not-allowed;
+}
+
+.post-pagination .previous-span a{
+padding-left:40px;
+float:left;
+cursor:pointer;
+opacity:1;
+background:#FFF;
+border-radius:5px;
+margin-left:15px;
+padding:10px 30px;
+transition:all .5s ease-in-out;
+-webkit-transition:all .5s ease-in-out;
+-moz-transition:all .5s ease-in-out;
+}
+
+
+.post-pagination .next-span a{
+float:right;
+padding-right:40px;
+cursor:pointer;
+opacity:1;
+background:#FFF;
+border-radius:5px;
+margin-right:15px;
+padding:10px 30px;
+transition:all .5s ease-in-out;
+-webkit-transition:all .5s ease-in-out;
+-moz-transition:all .5s ease-in-out;
+}
+
+.post-pagination .next-span a:hover,
+.post-pagination .previous-span a:hover {
+    background:#2a2a2a;
+    color:#FFFFFF;
+    text-decoration:none;
+}
+.float-right{
+float:right;
+}
+.float-left{
+    float:left;
+}
+/*End Main posts*/
+
+/*start single post*/
+.single-post{
+position:relative;
+}
+.single-post .post-edit-link{
+position:absolute;
+top:0;
+right:0;
+padding: 15px;
+border-radius: 237px;
+background: #EEEEEE;
+margin-right: 16px;
+text-decoration: none;
+margin-top: 11px;
+transition:all .4s ease-in-out;
+-webkit-transition:all .4s ease-in-out;
+-moz-transition:all .4s ease-in-out;
+
+}
+
+.single-post .post-edit-link:hover{
+    background:#2a2a2a;
+    color:#FFF;
+}
+
+/*.single-post .post-pagination .next-span{
+    transition:all 1.5s ease-in-out;
+    -webkit-transition:all 1.5s ease-in-out;
+    -moz-transition:all .4s ease-in-out;
+}*/
+.single-post-pagination  {
+    position:relative;
+
+}
+.single-post-pagination .next-span a:hover,
+.single-post-pagination .previous-span a:hover{
+    margin:0px;
+
+}
+/*.single-post-pagination .next-span a:hover:after
+{
+font-family: FontAwesome;
+  content: "  \f054";
+    position: absolute;
+    padding-right: 5px;
+}
+.single-post-pagination .previous-span a:hover:before
+{
+font-family: FontAwesome;
+  content: "        \f053";
+    position: absolute;
+    padding-left:6px ;
+}
+*/
+
+/*End single post*/
+
+
+/*start comment section*/
+
+.comments-list ul,
+.comments-list ol{
+
+    list-style:none;
+}
+
+.comments-list{
+background: #FFFFFF;
+padding: 20px;
+list-style: none;
+border: 1px solid #f3d3d3 ;
+
+}
+
+.comments-list>li{
+    margin-bottom:10px;
+}
+.comment-count{
+background:#c53737;
+    padding: 11px;
+        color: #ffffff;
+        text-align:center;
+        margin-top:58px;
+}
+
+.comments-list .comment-body {
+
+border: 1px solid #167ac6;
+padding: 12px;
+background: #EEE;
+
+
+}
+
+.comments-list .comment-body .says {
+    display:none;
+}
+
+.comments-list >.comment >.children>.comment .comment-body{
+padding: 6px;
+padding-left:43px;
+border: 1px solid lightblue;
+background: #DDD;
+margin-top:3px;
+list-style:none;
+
+ 
+}
+
+.comments-list >.comment >.children>.comment .comment-body{
+padding: 6px;
+padding-left:43px;
+border: 1px solid lightblue;
+background: #DDD;
+margin-top:3px;
+list-style:none;
+ 
+}
+
+
+.comment-respond label{
+    display:block;
+
+}
+
+.comment-respond input[type="text"],
+.comment-respond textarea
+{
+height:40px;
+width:500px;
+padding:10px;
+background:#FFF;
+    border:none;
+}
+
+.comment-respond textarea{
+    height:200px;
+    resize:none;
+
+}
+
+
+
+/*End comment section*/
+
+
+
